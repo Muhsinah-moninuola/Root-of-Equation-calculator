@@ -13,7 +13,7 @@ w = u'\ax\u2703'
 if D < 0:
     ans = input("The equation has no real roots, would you like to view the complex roots? would you like to view the roots, enter yes to view them, press any other key to exit ")
     if ans.lower == 'yes':
-        print (f'The roots of {w} +{+b}x +{+c} are x1 = {x1} and x2 =1 {x2}')
+        print (f'The roots of {w} +{+b}x +{+c} are x1 = {x1} and x2 = {x2}')
     else:
         print ('you are welcome')    
 
